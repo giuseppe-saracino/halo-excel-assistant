@@ -1,0 +1,24 @@
+﻿{
+  ""functions"": {
+    ""SOMMA"": {
+      ""english"": ""SUM"",
+      ""category"": ""Matematica"",
+      ""syntax"": ""=SOMMA(intervallo)"",
+      ""description"": ""Somma valori numerici in un intervallo."",
+      ""params"": [{""name"": ""intervallo"", ""type"": ""range"", ""description"": ""Celle da sommare""}],
+      ""example"": ""=SOMMA(A1:A10)""
+    },
+    ""SE"": {
+      ""english"": ""IF"",
+      ""category"": ""Logica"",
+      ""syntax"": ""=SE(condizione; valore_se_vera; valore_se_falsa)"",
+      ""description"": ""Valore condizionale."",
+      ""params"": [
+        {""name"": ""condizione"", ""type"": ""boolean""},
+        {""name"": ""valore_se_vera"", ""type"": ""any""},
+        {""name"": ""valore_se_falsa"", ""type"": ""any""}
+      ],
+      ""example"": ""=SE(A1>10; \\""Grande\\""; \\""Piccolo\\"")""
+    }
+  }
+}
