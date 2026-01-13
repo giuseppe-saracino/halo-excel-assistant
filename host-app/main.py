@@ -11,7 +11,7 @@ FUNCTIONS_DB = {}
 def load_functions():
     global FUNCTIONS_DB
     try:
-        with open('../function-db/functions_it.json', 'r', encoding='utf-8') as f:
+        with open('../function-db/functions_it.json', 'r', encoding='utf-8-sig') as f:
             FUNCTIONS_DB = json.load(f)['functions']
         print('Funzioni caricate:', len(FUNCTIONS_DB))
     except Exception as e:
