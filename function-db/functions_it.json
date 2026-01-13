@@ -1,0 +1,1 @@
+﻿{"functions":{"SOMMA":{"english":"SUM","category":"Matematica","syntax":"=SOMMA(intervallo)","description":"Somma valori numerici.","example":"=SOMMA(A1:A10)"},"SE":{"english":"IF","category":"Logica","syntax":"=SE(condizione;vero;falso)","description":"Condizione logica.","example":"=SE(A1>10;`\"Grande`\";`\"Piccolo`\"}"}}}
